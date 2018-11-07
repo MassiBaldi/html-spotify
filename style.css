@@ -97,17 +97,33 @@
   height: 1px;
   background: #696a67;
 }
-
+.navbar {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 80%;
+  height: 70px;
+  background: red;
+}
+.navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  font-size: 13px;
+  color: #696a67;
+}
+.navbar a:hover {
+  color: white;
+}
 .main {
   display: flex;
+  justify-content: center;
   width: 85%;
   height: 90%;
   background: blue;
-}
-.navbar {
-  width: 100%;
-  height: 70px;
-  background: brown;
+  /* background: linear-gradient( #2f393a , #080a07); */
 }
 .footer {
   width: 100%;
