@@ -15,14 +15,14 @@
   flex-direction: column;
   width: 15%;
   height: 90%;
+  background: #040503;
 }
 .sidebar_top{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
-  height: 85%;
-  background: green;
+  height: 90%;
 }
 .logo {
   display: flex;
@@ -40,8 +40,7 @@
   align-self: center;
   width: 80%;
   font-size: 13px;
-  margin: 5px 0;
-  background: yellow;
+  margin: 10px 0;
 }
 .sidebar_item a {
   text-decoration: none;
@@ -50,21 +49,55 @@
 .sidebar_item a:hover {
   color: white;
 }
-.sidebar_item a:hover, .sidebar_item a.selected{
+.sidebar_item a.selected{
   color: #1db954;
 }
-.sidebar_span {
+.sidebar_text {
   align-self: center;
   width: 80%;
-  font-size: 13px;
-  margin: 5px 0;
-  background: red;
+  margin-top: 30px;
+  color: #696a67;
+}
+.sidebar_text h3 {
+  font-size: 12px;
+  padding-bottom: 15px;
+}
+.sidebar_text span {
+  font-size: 10px;
+}
+.sidebar_text h4 {
+  font-size: 12px;
+  font-weight: 300;
+  padding-bottom: 20px;
 }
 .sidebar_bottom {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  height: 15%;
-  background: pink;
+  height: 10%;
+  padding-bottom: 10px;
 }
+.sidebar_bottom_item {
+  width: 80%;
+  margin: auto;
+}
+.sidebar_bottom_item a {
+  text-decoration: none;
+  color: #696a67;
+}
+.sidebar_bottom_item a:hover {
+  color: white;
+}
+.sidebar_bottom_item a.selected {
+  color: white;
+}
+.linea {
+  margin: 5px auto;
+  width: 80%;
+  height: 1px;
+  background: #696a67;
+}
+
 .main {
   display: flex;
   width: 85%;
@@ -79,5 +112,5 @@
 .footer {
   width: 100%;
   height: 10%;
-  background: yellow;
+  background: #282828;
 }
